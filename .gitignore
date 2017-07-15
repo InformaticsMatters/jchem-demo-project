@@ -1,0 +1,6 @@
+*~
+**/build
+.gradle/
+.idea/
+jchem-demo-project.iml
+settings.gradle

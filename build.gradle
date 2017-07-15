@@ -1,0 +1,24 @@
+
+apply plugin: 'java'
+
+repositories {
+
+    jcenter()
+
+    maven {
+        url cxnMavenRepositoryUrl
+        credentials {
+            username = cxnMavenUser
+            password = cxnMavenPassword
+        }
+    }
+
+}
+
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile("com.chemaxon:jchem-main:17.15.0")
+
+    testCompile 'junit:junit:4.12'
+}

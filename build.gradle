@@ -22,3 +22,10 @@ dependencies {
 
     testCompile 'junit:junit:4.12'
 }
+
+
+// ./gradlew execute
+task execute(type:JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    main = 'Demo'
+}

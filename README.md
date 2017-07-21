@@ -1,7 +1,5 @@
 # Demo project showing how to use ChemAxon libs from gradle.
 
-**NOTE**: this does not currently work - trying to establish why not.
-
 To run this create/edit gradle.properties and add these three properties:
 
 * cxnMavenUser
@@ -13,6 +11,15 @@ Instructions for this can be found [here](https://docs.chemaxon.com/display/docs
 Then try:
 
 ```sh
-./gradlew build
+$ ./gradlew execute
+:compileJava
+:processResources UP-TO-DATE
+:classes
+:execute
+JChem version: 17.15.0
+
+BUILD SUCCESSFUL
 ```
+
+You should see the JChem version reported as shown above.
 

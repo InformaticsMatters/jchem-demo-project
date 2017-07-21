@@ -6,7 +6,8 @@ To run this create/edit gradle.properties and add these three properties:
 * cxnMavenPassword
 * cxnMavenRepositoryUrl
 
-Instructions for this can be found [here](https://docs.chemaxon.com/display/docs/Public+Repository#PublicRepository-HowtoCongfigureYourProject), though they are slighly garbled.
+Instructions for this can be found [here](https://docs.chemaxon.com/display/docs/Public+Repository#PublicRepository-HowtoCongfigureYourProject),
+though they are slightly garbled.
 
 Then try:
 
